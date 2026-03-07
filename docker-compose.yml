@@ -1,0 +1,24 @@
+services:
+  database:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+  web_server:
+    build: .
+    ports: 
+      - "5001:5000"
+    depends_on:
+      - database
+    environment:
+      - MONGO_URI=mongodb://database:27017
+
+    #mappiamo i file statici che sono fuori alla cartella 'app', cosi il container li allegerisce
+    volumes:
+      - ./app:/app
+      - ./app/img:/app/img
+
+volumes:
+  mongo_data:
