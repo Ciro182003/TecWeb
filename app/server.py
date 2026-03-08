@@ -3,22 +3,19 @@ from pymongo import MongoClient
 
 import os
 
-#definisco app 
-app = Flask(__name__)
-
+#specifico i template per far capire a python dove siano i file HTML e CSS
+app = Flask(__name__, template_folder='templates', static_folder='static')
 #docker permette di usare il nome del servizio 'database' come hostname
 
 mongoUri = os.environ.get("MONGO_URI", "mongodb://database:27017")
 client = MongoClient(mongoUri)
 
+
+
+
 #test di connessione
 db = client.test_db
 
-
-#rotta immagini
-@app.route('/img/<path:filename>')
-def custom_static(filename):
-    return send_from_directory('img', filename)
 
 #servire la pagina principale
 @app.route('/')

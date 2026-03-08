@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TecWeb</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='CSS/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='CSS/style.css') }}?=v1.1">
 </head>
 
 
@@ -13,9 +13,35 @@
 <body>
 
     <header>
-        <h1>TEC WEB Project</h1>
+
+        <div class="testiCentrali">
+            <span class="nome">PARTHENOPE</span>
+            <span class="subNome">TECH</span>
+        </div>
+
+        <div class="status">
+            <span class="stato">OFFLINE &nbsp &nbsp &nbsp|&nbsp&nbsp&nbsp </span>
+            <span class="data">18/12/2026 18:07:34</span>
+        </div>
+
     </header>
 
+
+    <div class="dashboard">
+
+        <div class="card">
+
+            <div class="riga-superiore">
+                <span class="icona"></span>
+                <span class="nomeRiquadro">VELOCITÀ</span>
+            </div>
+            <div class="valore-centrale">
+                <span class="valori">96.6</span>
+                <span class="unita">km/h</span>
+            </div>
+        </div>
+
+    </div>
 
 
 
