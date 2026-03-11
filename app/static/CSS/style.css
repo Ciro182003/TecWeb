@@ -71,43 +71,66 @@ header {
 
 /*! fine titolo in alto con style*/
 
-.dashborad {
+.dashboard {
 
     
     display: flex; /* allinea le card una di fianco all'altra */
     flex-wrap: wrap; /* in caso di card che non ci entrano, va a capo */
-    justify-content: center; /* centra il tutto */
+    justify-content: flex-start; /* ogni card viene affiancata ad un'altra*/
     gap: 20px; /* spazio tra le varie card */
     padding: 20px; /* area intorno ad ogni card */
+    margin-left: 70px;
+    
 
 }
 
 .card {
     
-    background-color: #282B3D;
-    border: 1px solid #333;
-    border-radius: 15px; /*arrotondamento degli angoli*/
-    width: 90%;
-    max-width: 150px;
-    height: 90%;
-    max-height: 200px;
+    background-color: #161F34;
+    border: 2px solid #2F3950; /* colore bordo card*/
+    border-radius: 30px; /*arrotondamento degli angoli*/
+    width: 320px;
+    
+    height: 200px;
+    
     padding: 20px;
+    display: flex;
+    flex-direction: column; /* cambia l'asse del contenitore flex box da orizzontale a verticale*/
+    justify-content: space-between;
+
+    /*effetto al passaggio del mouse*/
+    transition: all 0.3s ease;
+    cursor: pointer;
 }
+
+.card:hover {
+    border-color: #3c81f6;
+    transform: scale(1.05); /* ingrandisce la card dello 0.5 % */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4); /*profondità aggiunta alla card*/
+}
+
 
 /* icona card */
 .rigaSuperiore {
     display: flex;
-    justify-content: space-between; /* spinge l'icona a destra e la categoria a sinistra*/
-    align-items: center;
-    margin-bottom: 30px;
+    justify-content: flex-start; /* spinge l'icona a destra e la categoria a sinistra*/
+    padding-top: 20px;
+    padding-left: 15px;
+    gap: 150px;
 }
 
 /*icona*/
-.icona {
-    width: 12px;
-    height: 12px;
-    background-color: #3c81f6;  
-    border-radius: 50%;
+icona-svg {
+
+    width: 30px !important;          /* Ingrandita significativamente */
+    height: 30px !important;         /* Mantieni proporzioni */
+    display: block;       /* Importante per i margini */
+    
+   position: relative;
+   top: 20px;
+   left: 20px;
+
+   
 }
 
 .nomeRiquadro {
@@ -117,15 +140,19 @@ header {
 }
 
 .valori {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 15px;
+    margin-bottom: 10px;
     color: #E2E8F0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 45px;
+    font-size: 60px;
     font-weight: bold;
 }
 
 .unita {
-    color: #7F8290;
-    font-size: 18px;
+    
+    color: #64748B;
+    font-size: 20px;
+    font-weight: bolder;
 }
 
 .valore-centrale {
