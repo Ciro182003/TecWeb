@@ -86,7 +86,7 @@ header {
 
 .card {
     
-    background-color: #161F34;
+    background-color: #182237;
     border: 2px solid #2F3950; /* colore bordo card*/
     border-radius: 30px; /*arrotondamento degli angoli*/
     width: 320px;
@@ -104,7 +104,7 @@ header {
 }
 
 .card:hover {
-    border-color: #3c81f6;
+    border-color: #111E37;
     transform: scale(1.05); /* ingrandisce la card dello 0.5 % */
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4); /*profondità aggiunta alla card*/
 }
@@ -119,18 +119,13 @@ header {
     gap: 150px;
 }
 
+
 /*icona*/
-icona-svg {
+.icona-svg {
 
-    width: 30px !important;          /* Ingrandita significativamente */
-    height: 30px !important;         /* Mantieni proporzioni */
-    display: block;       /* Importante per i margini */
-    
-   position: relative;
-   top: 20px;
-   left: 20px;
+    width: 80px !important;          
+    height: 70px !important;         
 
-   
 }
 
 .nomeRiquadro {
