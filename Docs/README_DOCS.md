@@ -1,5 +1,5 @@
-Stazione Meteo Didattica Open-Source
-Obiettivo del Progetto.
+<p align="center"><b>Stazione Meteo Didattica Open-Source</b></p>
+<b>Obiettivo del Progetto:</b>
 L'obiettivo principale è l'ingegnerizzazione di una stazione meteorologica modulare e replicabile in piccoli laboratori scolastici ed accademici. Il progetto è pensato come un kit didattico che unisce alcune macro discipline.
 1. Meccanica: componenti struttirali ottimizzati per la stampa 3D( schermo solare,anemometro,pluviometro a cella di carico) con tolleranze ottimizzate per le più comuni stampanti in commercio.
 2. Elettronica: Sviluppo del PCB su KICAD appositamente ingegnerizzato per la produzione autonoma tramite fresatura CNC da banco ( CNC3018 PRO) con piste opportunamente maggiorate e componenti THT per agevolare la saldatura.
