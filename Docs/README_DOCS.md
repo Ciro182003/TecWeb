@@ -32,7 +32,8 @@ Per garantire la massima modularita ed evitare la sovrapposizione tra le diverse
 
 ```text
 ├── .github/               # Template di gestione delle attivita e bug-tracking
-├── docs/                  # Documentazione tecnica, analisi e studi di fattibilita
-├── meccanica/             # Modelli CAD e file per la manifattura additiva (Stampa 3D)
-├── elettronica/           # Progetti EDA, schemi elettrici e file di lavorazione CNC
-└── software/              # Firmware del microcontrollore e script di intelligenza artificiale
+├── DOCS/                  # Documentazione tecnica, analisi e studi di fattibilita
+├── MECCANICA/             # Modelli CAD e file per la manifattura additiva (Stampa 3D)
+├── ELETTRONICA/           # Progetti EDA, schemi elettrici e file di lavorazione CNC
+├── SOFTWARE/              # Firmware del microcontrollore e script di intelligenza artificiale
+└── TELECOMUNICAZIONI      # Gestione comunicazioni LORA,WIFI e tecniche di mediazione MASTER/SLAVE
