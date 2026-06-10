@@ -1,1 +1,9 @@
-
+Guida Post-stampa:adattamento e Pulizia Filettature
+Componente:Mantieni-Cuscinetti della Centralina Meteo
+Questa breve guida spiega come preparare,pulire e adattare le filettature dei componenti stampati in 3D per garantire un accoppiamento fluido e duraturo,evitando il rischio di grippaggio o rottura dei pezzi originali.
+Fase 1:Pulizia e Sgrossatura
+Una volta completata la stampa 3D di tutte le parti interessate,occorre rimuovere le piccole imperfezioni,bave o filamenti microscopici sui filetti.
+1.Prendi carta abrasiva di grana fine
+2.Passala in modo leggero e controllato lungo le filettature per pulire il grosso dei residui di stampa.
+NOTA BENE:Agisci con mano leggera per evitare di usurare precocemente il profilo del filetto o alterare la tolleranza geometrica nominale.
+Fase 2:Stampa del Perno di Prova(perno X)ùPrima di rischiare di danneggiare o forzare il pezzo definitivo 
