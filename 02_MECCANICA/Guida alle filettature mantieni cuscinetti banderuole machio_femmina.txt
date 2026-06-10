@@ -1,9 +1,24 @@
 Guida Post-stampa:adattamento e Pulizia Filettature
 Componente:Mantieni-Cuscinetti della Centralina Meteo
 Questa breve guida spiega come preparare,pulire e adattare le filettature dei componenti stampati in 3D per garantire un accoppiamento fluido e duraturo,evitando il rischio di grippaggio o rottura dei pezzi originali.
-Fase 1:Pulizia e Sgrossatura
+**Fase 1:Pulizia e Sgrossatura**
 Una volta completata la stampa 3D di tutte le parti interessate,occorre rimuovere le piccole imperfezioni,bave o filamenti microscopici sui filetti.
 1.Prendi carta abrasiva di grana fine
 2.Passala in modo leggero e controllato lungo le filettature per pulire il grosso dei residui di stampa.
 NOTA BENE:Agisci con mano leggera per evitare di usurare precocemente il profilo del filetto o alterare la tolleranza geometrica nominale.
-Fase 2:Stampa del Perno di Prova(perno X)ùPrima di rischiare di danneggiare o forzare il pezzo definitivo 
+**Fase 2:Stampa del Perno di Prova(perno di 01_struttura parte superiore_ver_1_0.iam)**
+Prima di rischiare di danneggiare o forzare il pezzo definitivo,utilizzeremo un pezzo sacrificale di test.
+1.Metti in stampa il PERNO X(prova/adattamento)
+2.Questo componente servirà esclusivamente per testare e sopratutto adattare le filettature dei tappi prima dell'assemblaggio finale.
+**Fase 3:Lubrificazione e Rodaggio dell'Accoppiamento**
+Le plastiche stampate in 3D presentano un forte attrito superficiale reciproco quando vengono avvitate per la prima volta.Risulta essere fondamentale agevolare il processo con un lubrificante adatto.
+1. prendi il tappo stampato(in questo caso i tappi sono 2) e preparati ad avvitarlo per la prima volta sul perno X di prova.
+2. Si raccomanda caldamente di applicare sul filetto maschio(Perno X) una goccia di olio(nelle prove di laboratorio si è usato olio SINGER per macchine da cucire).Questo specifico lubrificante ,essendo molto diluito,possiede una tensione superficiale ottimale per penetrare tra le micro-creste della stampa 3D.
+3.Inizia ad avvitare il tappo sul perno di prova.
+4. Esegiu un movimento controllato di "avvita e scita" per varie volte.Questo processo eliminerà gli attriti residui effettuando un vero e proprio rodaggio.continua finchè il meccanismo non risulta perfettamente fluido escorrevole o comunque di facile azione.
+**Fase 4:Assemblaggio finale**
+Ora che la filettatura del tappo è stata calibrata e ammorbidita sul perno di test,puoi procedere alla chiusura  del componente definitivo.
+1.Svita il tappo dal Perno X di prova.
+2.Puliscilo leggermente da eventuali eccessi di polvere plastica o olio se necessario.
+3.Avvita e stringi solo con le mani fino a fine corsa facendo combaciare il tappo con il corpo dell'altro pezzo.
+Il componente è pronto e strutturalmente protetto da forzature meccaniche!
